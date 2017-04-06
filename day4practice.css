@@ -1,0 +1,16 @@
+.top-container{
+	height:500px;
+	background-color:darkred;
+}
+.pic1, .pic2{
+	display:inline-block;
+	background-size:100% 100%;
+	width:400px;
+	height:400px;
+}
+.pic1{
+background-image:url("project1.png");
+}
+.pic2{
+background-image:url("project2.PNG");
+}
