@@ -6,7 +6,7 @@
 
 }
 .wlabel{
-	background-image: url("w-300.png");
+	background-image: url("w-300.PNG");
 	width:75px;
 	height:75px;
 	display:none;
@@ -54,32 +54,32 @@ h1{
 }
 .project2{
 	margin:0 auto;
-	background-image:url("project2.png");
+	background-image:url("project2.PNG");
 	
 }
 .project1{
 	float:left;
-	background-image:url("project1.png");
+	background-image:url("project1.PNG");
 	margin-left:10%;
 }
 .project3{
 	float:right;
-	background-image:url("project3.png");
+	background-image:url("project3.PNG");
 	margin-right:10%;
 }
 .project4{
 	float:left;
-	background-image:url("project4.png");
+	background-image:url("project4.PNG");
 	margin-left:10%;
 }
 .project5{
 	margin:0 auto;
-	background-image:url("project5.png");
+	background-image:url("project5.PNG");
 	
 }
 .project6{
 	float:right;
-	background-image:url("project6.png");
+	background-image:url("project6.PNG");
 	margin-right:10%;
 }
 .menubar{
