@@ -1,0 +1,238 @@
+.main-container{
+	width:100%x;
+	height:600px;
+	display:block;
+		margin:0;
+
+}
+.wlabel{
+	background-image: url("w-300.png");
+	width:75px;
+	height:75px;
+	display:none;
+	background-size:100% 100%;
+	margin:0 auto;
+	margin-top:10px;
+}
+body{
+	
+	margin:0;
+}
+.whiteblock{
+	width:100%;
+	height:75px;
+	
+	margin-top:225px;
+	
+}
+h1{
+	font-family:Helvetica;
+	margin:0;
+	font-size:40px;
+	text-align:center;
+	color:cyan;
+}
+.topheader{
+	margin:0 auto;
+}
+.codepicblock{
+	margin:0 auto;
+	border-top:2px solid lightgrey;
+	width:100%;
+	height:275px;
+	
+	background-color:lightgrey;
+
+}
+.project1, .project2, .project3, .project4, .project5, .project6{
+	display:block;
+	width:270px;
+	height:270px;
+	background-size:100% 100%;
+	
+
+}
+.project2{
+	margin:0 auto;
+	background-image:url("project2.png");
+	
+}
+.project1{
+	float:left;
+	background-image:url("project1.png");
+	margin-left:10%;
+}
+.project3{
+	float:right;
+	background-image:url("project3.png");
+	margin-right:10%;
+}
+.project4{
+	float:left;
+	background-image:url("project4.png");
+	margin-left:10%;
+}
+.project5{
+	margin:0 auto;
+	background-image:url("project5.png");
+	
+}
+.project6{
+	float:right;
+	background-image:url("project6.png");
+	margin-right:10%;
+}
+.menubar{
+	padding-top:20px;
+	padding-left:20px;
+	height:30px;
+	background-color:white;
+	width:100%;
+}
+.thirdblock{
+	height:300px;
+	background-color:lightgrey;
+	margin-top:30px;
+}
+.homelink{
+	float:left;
+}
+.experience{
+	display:inline-block;
+	width:100px;
+	height:100%;
+	border:2px solid black;
+}
+.focus{
+
+}
+.secondpart{
+	height:400px;
+	background-color:black;
+
+}
+.secondtext{
+	width:200px;
+	height:75px;
+	font-size:60px;
+	margin:0 auto;
+	background-color:white;
+	text-align:center;
+}
+.secondbox{
+	height:800px;
+	display:block;
+	margin:0 auto;
+	background-color:black;
+}
+.spacer{
+	height:400px;
+	background-color:black;
+}
+.examples{
+	height:337.5px;
+	background-color:lightgrey;
+	border-bottom:2px solid black;
+}
+.spacer2{
+	height:62.5px;
+	background-color:lightgrey;
+
+}
+.menuspan{
+	height:30px;
+	background-color:white;
+	margin:0 auto;
+}
+.spacer2text{
+	height:62.5;
+	text-align:center;
+	font-size:40px;
+	margin:0;
+	text-decoration:underline;
+}
+.contactinfo{
+	height:30px;
+	width:300px;
+	background-color:white;
+	margin-left:10%;
+	font-size:18px;
+	display:inline-block;
+}
+.profilepic{
+	background-image:url("profilepic.jpg");
+	height:300px;
+	width:300px;
+	background-size:100% 100%;
+	float:right;
+	margin-right:10%;
+}
+.blah{
+	clear:both;
+}
+.firstpart{
+	
+	background-image:url("coder.jpg");
+	background-size:100% 100%;
+}
+div{
+
+}
+@media all and (min-width: 1200px) {
+
+}
+
+/* Tablets and small desktop */
+@media all and (min-width: 768px) and (max-width: 979px) {
+	.project1, .project2, .project3,.project4, .project5, .project6{
+		width:150px;
+		height:150px;
+	}	
+	.examples{
+		height:175px;
+	}
+	.codepicblock{
+		height:237.5px;
+	}
+}
+
+/* Phone in landscape mode, small tablet */
+@media all and (max-width: 767px) {
+	.project1, .project2, .project3, .project4, .project5, .project6{
+		float:none;
+		display:block;
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.codepicblock{
+		height:100%;
+		float:left;
+	}
+	.examples{
+		height:1000px;
+	}
+	.contactinfo{
+		display:block;
+		float:none;
+		text-align:center;
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.profilepic{
+		float:none;
+		margin:0 auto;
+	}
+	
+	
+}
+
+/* Smaller Phone, phone in portrait mode */
+@media all and (max-width: 480px) {
+	.spacer2text{
+		font-size:20px;
+	}
+	.secondspacer .spacer{
+		height:20px;
+	}
+
+}
